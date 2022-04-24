@@ -1,4 +1,4 @@
-import { app } from 'electron';
+import { app,nativeTheme  } from 'electron';
 import serve from 'electron-serve';
 import { createWindow } from './helpers';
 
@@ -12,7 +12,7 @@ if (isProd) {
 
 (async () => {
   await app.whenReady();
-
+  nativeTheme.themeSource = 'dark'
   const mainWindow = createWindow('main', {
     width: 1200,
     height: 600,
