@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "name": "Foresta",
+  "description": "Make your forest fly.",
+  "version": "1.0.0",
+  "author": "Foresta team",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron",
+    "build": "nextron build",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "electron-serve": "^1.1.0",
+    "electron-store": "^8.0.1",
+    "@metamask/detect-provider": "^1.2.0",
+    "@openzeppelin/contracts": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.6",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "ethereum-events": "^0.1.3",
+    "ethers": "^5.5.1",
+    "i": "^0.3.7",
+    "next": "12.1.4",
+    "npm": "^8.7.0",
+    "open-simplex-noise": "^2.5.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "sass": "^1.50.0",
+    "three": "^0.139.2",
+    "truffle": "^5.5.9",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "electron": "^17.1.2",
+    "electron-builder": "23.0.2",
+    "next": "^12.1.0",
+    "nextron": "^8.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "scss": "^0.2.4"
+  }
+}
