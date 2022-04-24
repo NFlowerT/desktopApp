@@ -16,7 +16,6 @@ if (isProd) {
   const mainWindow = createWindow('main', {
     width: 1200,
     height: 600,
-    titleBarStyle: 'customButtonsOnHover',
     icon: 'resources/favicon.ico',
   });
   mainWindow.setMenuBarVisibility(false)
